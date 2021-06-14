@@ -97,7 +97,7 @@
     }
     
     .empty-results-img {
-        background-image: url('/storage/img/no-results.png'); 
+        background-image: url('https://drive.google.com/uc?export=view&id=1ldyitPRx7EXg80JHtx9dUrk9o4bW5YzW');
         background-position: center center;
         background-size: 48px 48px;
         width:48px;
