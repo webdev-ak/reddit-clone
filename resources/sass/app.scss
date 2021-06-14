@@ -1,0 +1,74 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+$fa-font-path: "./webfonts";
+
+// Fontawesome
+@import '~@fortawesome/fontawesome-free/scss/fontawesome.scss';
+@import '~@fortawesome/fontawesome-free/scss/solid.scss';
+
+
+html,body {
+  height: 100%;
+}
+
+body {
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+
+#appName {
+  font-weight: bold;
+  font-size: 22px;
+  padding-left: 5px;
+}
+
+.app-logo {
+  background-image: url('/storage/img/logo.png'); 
+  background-position: center center;
+  background-size: 32px 32px;
+  width:32px;
+  padding: 8px 8px 8px 0;
+  height: 32px;
+  border:none;
+}
+
+
+.appNotifications {
+  padding: 10px;
+  margin: 0 5px 20px;
+  font-size: 15px;
+  color: #ffffff;
+  background: #44A4FC;
+  border-left: 5px solid #187FE7;
+
+}
+
+.appNotifications.warn {
+  background: #ffb648;
+  border-left-color: #f48a06;
+}
+
+.appNotifications.error {
+  background: #E54D42;
+  border-left-color: #B82E24;
+}
+
+.appNotifications.success {
+  background: #03A8F2;
+  border-left-color: #3490DC;
+}
+
+.art { 
+  background-image: url('/storage/img/art.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width:156px;
+}
+
