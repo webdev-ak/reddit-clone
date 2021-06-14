@@ -12,7 +12,7 @@ const constants = {
         [{ 'indent': '-1'}, { 'indent': '+1' }],
         ['blockquote', 'code-block'],
     ],
-    'COMMENTS_DEPTH': 3,
+    'COMMENTS_DEPTH': 10,
     'POSTS_PER_PAGE_NUMBER': 4,
     'images': {
         'REDDIT_ALIEN': "https://drive.google.com/uc?export=view&id=1u3yoLkGvgI3uAs7OB6XlN5V6CfAQrJTP",
